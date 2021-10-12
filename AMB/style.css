@@ -1,0 +1,177 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*----------Navigation---------*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+            .navbar-brand img
+        {
+            height: 40px;
+            padding-left: 30px;
+        }
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: #007bff!important;
+}
+.navbar
+{
+    background: #fff;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+color : #555!important;
+font: wight 60px;
+}
+/*------slider-----*/
+#slider
+{
+   width: 100%;
+}
+.carousel-caption
+{
+top: 50%;
+transform: translateY(-50%);
+bottom: initial!important;
+}
+.carousel-caption h5
+{
+color: rgb(236, 18, 18);
+font-size: 42px;
+}
+/*------About------*/
+#about
+{
+padding-top: 50px;
+padding-bottom: 50px;
+color: #555;
+}
+#about .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-content
+{
+    padding-top: 20px;
+}
+.skills-bar p
+{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress-bar
+{
+border-radius: 16px;
+}
+.progress
+{
+    border-radius: 16px !important;
+margin-bottom:20px;
+}
+/*--------Services--------*/
+#services
+{
+    background-image:
+    linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/logo11.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#services h1
+{
+text-align:center;
+color:#efefef !important;
+padding-bottom: 10px;
+}
+#services h1::after
+{
+    content: '';
+    background:#efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px; 
+}
+.services
+{
+    margin-top: 40px;
+}
+.icon 
+{
+font-size: 40px;
+margin: 20px auto;
+padding: 20px;
+height: 80px;
+width: 80px;
+border: 1px solid #fff;
+border-radius: 50%;
+}
+#services p
+{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #ccc;
+}
+.services .col-md-3:hover{
+    background: #007bff;
+    cursor: pointer;
+    transition: 0.7s;
+}
+/* Modal Header */
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  /* Modal Body */
+  .modal-body {padding: 2px 16px;}
+  
+  /* Modal Footer */
+  .modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+  }
